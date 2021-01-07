@@ -24,8 +24,8 @@ const portal = {
             id: 'data',
             title: 'Data',
             children: [
-                { id: 'experiments', title: 'Experiments', url: '/search/?type=Experiment&internal_tags=RegulomeDB' },
-                { id: 'annotations', title: 'Annotations', url: '/search/?type=Annotation&internal_tags=RegulomeDB' },
+                { id: 'experiments', title: 'Experiments', url: 'https://regulomedb.org/search/?type=Experiment&internal_tags=RegulomeDB' },
+                { id: 'annotations', title: 'Annotations', url: 'https://regulomedb.org/search/?type=Annotation&internal_tags=RegulomeDB' },
             ],
         },
         {
